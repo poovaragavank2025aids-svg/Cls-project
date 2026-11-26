@@ -6,7 +6,8 @@ import Team from "./pages/Team";
 import Client from "./pages/client";
 import Dashboard from "./pages/dashboard";
 import Calendar from "./pages/calendar";
-import Settings from "./pages/settings";    
+import Settings from "./pages/settings";  
+import Register from "./pages/register";  
 function App() {
   return (
     <BrowserRouter>
@@ -19,6 +20,7 @@ function App() {
       <Route path="/dashboard" element={<Dashboard/>} />
       <Route path="/calendar" element={<Calendar/>} />
       <Route path="/settings" element={<Settings/>} />
+      <Route path="/register" element={<Register/>} />
      </Routes>
     </BrowserRouter>
    
